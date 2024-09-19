@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    background-color: white;
+    background-color: aqua;
+}
+.food-item{
+    width:300px;
+    height:300px;
+    border:2px solid black;
+}
+img{
+    width:100%;
+    height:80%;
+}
+food-item-part-2{
+    height:20%;
+}
+.food-item-part-2_1,.food-item-part-2_2{
+    /*display:flex;*/
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+@media (max-width:424px)
+    .food-items{
+       /* display:flex;*/
+       display: flex;
+        flex-wrap:wrap;
+        gap:10px;
+        justify-content:center;
+    }
+}
+@media (min-width:425px) and (max-width:768px){
+    .food-items{
+       /* display:flex;*/
+       display: flex;
+        flex-wrap:wrap;
+        gap:10px;
+        justify-content:center;
+        height:100vh;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    .food-items{
+       /* display:flex;*/
+       display: flex;
+        flex-wrap:wrap;
+        gap:10px;
+        justify-content:center;
+    }
+}
+@media (min-width:1025px) and (max-width:1440px){
+    .food-items{
+       /* display:flex;*/
+       display: flex;
+        flex-wrap:wrap;
+        gap:10px;
+        justify-content:center;
+    }
+}
+@media (min-width:1441px){
+    .food-items{
+       /* display:flex;*/
+       display: flex;
+        flex-wrap:wrap;
+        gap:10px;
+        justify-content:center;
+    }
+}
